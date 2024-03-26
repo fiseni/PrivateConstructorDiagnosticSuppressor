@@ -1,0 +1,1 @@
+# Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression

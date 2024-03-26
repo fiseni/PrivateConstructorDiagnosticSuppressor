@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <IsRoslynComponent>true</IsRoslynComponent>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+
+    <PackageId>Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Fati Iseni</Authors>
+    <Company>Pozitron Group</Company>
+    <Product>Pozitron Roslyn Analyzers</Product>
+    <Title>Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression</Title>
+    <Description>Suppresses CS8618 for private constructors.</Description>
+    <Summary>Suppresses CS8618 for private constructors.</Summary>
+    <Copyright>Copyright © 2024 Pozitron Group LLC</Copyright>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor</PackageProjectUrl>
+    <PackageIconUrl>https://pozitrongroup.com/PozitronLogo.png</PackageIconUrl>
+    <PackageIcon>pozitronicon.png</PackageIcon>
+    <PackageTags>roslyn diagnostic suppression</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <!--<DocumentationFile>bin\$(Configuration)\PrivateConstructorDiagnosticSuppressor.xml</DocumentationFile>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.9.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../docs/pozitronicon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
