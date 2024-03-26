@@ -1,3 +1,11 @@
+<img align="left" src="docs/pozitronlogo.png" width="120" height="120">
+
+&nbsp; [![NuGet](https://img.shields.io/nuget/v/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression.svg)](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression)
+
+&nbsp; [![NuGet](https://img.shields.io/nuget/dt/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression.svg)](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression)
+
+&nbsp; [![Actions Status](https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor/actions/workflows/ci.yml/badge.svg)](https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor/actions/workflows/ci.yml)
+
 # Private Constructor Nullability Suppression
 
 A library for suppressing the CS8618 warning for private constructors.
