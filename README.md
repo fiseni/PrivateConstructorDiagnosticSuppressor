@@ -10,7 +10,7 @@ CS8618 - Non-nullable variable must contain a non-null value when exiting constr
 
 Get it on [nuget.org](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression) or just include with
 ```csproj
-<PackageReference Include="Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression" Version="0.0.1" PrivateAssets="All" />
+<PackageReference Include="Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression" Version="1.0.0" PrivateAssets="All" />
 ```
 
 There are no attributes and no configuration. Just include the package and you are good to go.
