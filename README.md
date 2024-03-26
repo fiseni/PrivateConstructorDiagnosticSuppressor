@@ -8,9 +8,9 @@ CS8618 - Non-nullable variable must contain a non-null value when exiting constr
 <strong>Note:</strong> Use it if you're sure the state will be set correctly by other means.
 ## Getting Started
 
-Get on [nuget.org](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppressor) or just include with
+Get it on [nuget.org](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression) or just include with
 ```csproj
-<PackageReference Include="Pozitron.Analyzers.PrivateConstructorDiagnosticSuppressor" Version="0.0.1" PrivateAssets="All" />
+<PackageReference Include="Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression" Version="0.0.1" PrivateAssets="All" />
 ```
 
 There are no attributes and no configuration. Just include the package and you are good to go.
