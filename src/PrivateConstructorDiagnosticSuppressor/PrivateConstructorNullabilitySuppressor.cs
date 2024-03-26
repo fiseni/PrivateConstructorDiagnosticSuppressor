@@ -10,7 +10,7 @@ namespace Pozitron.Roslyn.Analyzers;
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
 public sealed class PrivateConstructorNullabilitySuppressor : DiagnosticSuppressor
 {
-    public static SuppressionDescriptor SuppressionDescriptor => new(
+    public static SuppressionDescriptor SuppressionDescriptor { get; } = new(
         id: "POZ0001",
         suppressedDiagnosticId: "CS8618",
         justification: "The state is set externally by 3rd party libraries (EF Core, mappers, etc).");
@@ -23,7 +23,7 @@ public sealed class PrivateConstructorNullabilitySuppressor : DiagnosticSuppress
         {
             if (SuppressionDescriptor.SuppressedDiagnosticId.Equals(diagnostic.Id))
             {
-                SyntaxNode? node = diagnostic.Location.SourceTree?
+                var node = diagnostic.Location.SourceTree?
                     .GetRoot(context.CancellationToken)
                     .FindNode(diagnostic.Location.SourceSpan);
 
