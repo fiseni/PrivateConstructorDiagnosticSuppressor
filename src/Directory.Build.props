@@ -14,6 +14,7 @@
   
   <PropertyGroup Label="Analyzer">
     <!--<IsRoslynComponent>true</IsRoslynComponent>-->
+    <DevelopmentDependency>true</DevelopmentDependency>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <IncludeBuildOutput>false</IncludeBuildOutput>
