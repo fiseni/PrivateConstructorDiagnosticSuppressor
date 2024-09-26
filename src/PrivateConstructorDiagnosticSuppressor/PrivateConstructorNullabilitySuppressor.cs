@@ -15,7 +15,7 @@ public sealed class PrivateConstructorNullabilitySuppressor : DiagnosticSuppress
         suppressedDiagnosticId: "CS8618",
         justification: "The state is set externally by 3rd party libraries (EF Core, mappers, etc).");
 
-    public override ImmutableArray<SuppressionDescriptor> SupportedSuppressions { get; } = ImmutableArray.Create(SuppressionDescriptor);
+    public override ImmutableArray<SuppressionDescriptor> SupportedSuppressions { get; } = [SuppressionDescriptor];
 
     public override void ReportSuppressions(SuppressionAnalysisContext context)
     {
