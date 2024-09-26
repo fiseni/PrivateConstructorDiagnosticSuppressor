@@ -9,10 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		.github\workflows\build.yml = .github\workflows\build.yml
 		.github\workflows\ci.yml = .github\workflows\ci.yml
+		clean.sh = clean.sh
+		src\Directory.Build.props = src\Directory.Build.props
+		tests\Directory.Build.props = tests\Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		exclusion.dic = exclusion.dic
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 		.github\workflows\release.yml = .github\workflows\release.yml
+		run-tests.sh = run-tests.sh
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateConstructorDiagnosticSuppressor.Tests", "tests\PrivateConstructorDiagnosticSuppressor.Tests\PrivateConstructorDiagnosticSuppressor.Tests.csproj", "{9E976368-2D6C-4B5C-A258-2244CE0B172A}"

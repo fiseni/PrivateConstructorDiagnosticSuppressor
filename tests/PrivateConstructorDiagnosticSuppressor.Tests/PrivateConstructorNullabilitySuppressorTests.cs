@@ -1,6 +1,6 @@
 ﻿using Microsoft.CodeAnalysis;
 
-namespace PrivateConstructorDiagnosticSuppressor.Tests;
+namespace Tests;
 
 public class PrivateConstructorNullabilitySuppressorTests
 {

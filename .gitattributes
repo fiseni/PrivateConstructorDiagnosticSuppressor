@@ -3,9 +3,6 @@
 ###############################################################################
 * text=auto
 
-# Declare files that will always have CRLF line endings on checkout.
-*.sh text eol=lf
-
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
@@ -43,10 +40,9 @@
 #
 # image files are treated as binary by default.
 ###############################################################################
-*.jpg   binary
-*.png   binary
-*.gif   binary
-*.ico   binary
+#*.jpg   binary
+#*.png   binary
+#*.gif   binary
 
 ###############################################################################
 # diff behavior for common document formats

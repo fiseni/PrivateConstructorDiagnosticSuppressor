@@ -1,9 +1,9 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.Diagnostics;
-using Pozitron.Roslyn.Analyzers;
+using Pozitron.Analyzers;
 
-namespace PrivateConstructorDiagnosticSuppressor.Tests;
+namespace Tests;
 
 public static class Verify
 {

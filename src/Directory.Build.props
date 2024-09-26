@@ -1,0 +1,44 @@
+<Project>
+
+  <PropertyGroup>
+    <RootNamespace>Pozitron.Analyzers</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ImplicitUsings>false</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Analyzer">
+    <!--<IsRoslynComponent>true</IsRoslynComponent>-->
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Package MetaData">
+    <Authors>Fati Iseni</Authors>
+    <Company>Pozitron Group</Company>
+    <Copyright>Copyright © 2024 Pozitron Group</Copyright>
+    <Product>Pozitron Analyzers</Product>
+
+    <PackageProjectUrl>https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIconUrl>https://pozitrongroup.com/PozitronLogo.png</PackageIconUrl>
+    <PackageIcon>pozitronicon.png</PackageIcon>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="../../pozitronicon.png" Pack="true" PackagePath="\" />
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+    <None Include="../../LICENSE.txt" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

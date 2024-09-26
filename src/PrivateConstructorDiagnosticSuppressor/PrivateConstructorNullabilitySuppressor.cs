@@ -5,7 +5,7 @@ using Microsoft.CodeAnalysis.Diagnostics;
 using System.Collections.Immutable;
 using System.Linq;
 
-namespace Pozitron.Roslyn.Analyzers;
+namespace Pozitron.Analyzers;
 
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
 public sealed class PrivateConstructorNullabilitySuppressor : DiagnosticSuppressor
