@@ -1,10 +1,10 @@
-<img align="left" src="docs/pozitronlogo.png" width="120" height="120">
+<img align="left" src="pozitronlogo.png" width="120" height="120">
 
 &nbsp; [![NuGet](https://img.shields.io/nuget/v/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression.svg)](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression)
 
-&nbsp; [![NuGet](https://img.shields.io/nuget/dt/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression.svg)](https://www.nuget.org/packages/Pozitron.Analyzers.PrivateConstructorDiagnosticSuppression)
+&nbsp; [![Full Build](https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor/actions/workflows/build.yml/badge.svg)](https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor/actions/workflows/build.yml)
 
-&nbsp; [![Actions Status](https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor/actions/workflows/ci.yml/badge.svg)](https://github.com/fiseni/PrivateConstructorDiagnosticSuppressor/actions/workflows/ci.yml)
+&nbsp; [![Coverage](https://privateconstructordiagnosticsuppressor.fiseni.com/badge_combined.svg)](https://privateconstructordiagnosticsuppressor.fiseni.com)
 
 # Private Constructor Nullability Suppression
 
