@@ -59,7 +59,7 @@ public static class Verify
         }
     }
 
-    private static Compilation CreateCompilation(
+    private static CSharpCompilation CreateCompilation(
         string? code = null,
         NullableContextOptions nullableContextOptions = NullableContextOptions.Disable)
     {
