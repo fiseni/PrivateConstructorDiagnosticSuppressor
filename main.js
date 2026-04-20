@@ -225,7 +225,7 @@ var assemblies = [
     ]},
 ];
 
-var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" }, { "name": "Cyclomatic complexity", "abbreviation": "cc", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" }, { "name": "Line coverage", "abbreviation": "cov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }, { "name": "Branch coverage", "abbreviation": "bcov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }];
+var metrics = [{ "name": "Cyclomatic complexity", "abbreviation": "cc", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" }, { "name": "NPath complexity", "abbreviation": "npth", "explanationUrl": "https://modess.io/npath-complexity-cyclomatic-complexity-explained" }, { "name": "Sequence coverage", "abbreviation": "seq", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }, { "name": "Branch coverage", "abbreviation": "bcov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }];
 
 var historicCoverageExecutionTimes = [];
 
